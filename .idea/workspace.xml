@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ecb6c59-ae4f-4bbb-9b4a-430aeb9d8fca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/db/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/node/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/MAINTAINERS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/issue-close-app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.github/lock.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.nvmrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.stylelintrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/Changelog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/.nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/A/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/A/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/StyledButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/buttonStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/A.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/StyledButton.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H1/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H1/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H2/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H2/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H3/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/H3/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/A.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/HeaderLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/Img.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/A.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/Img.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/A.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/Img.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Img/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Img/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/IssueIcon/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/IssueIcon/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/Ul.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/Ul.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/Item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/Item.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Circle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Circle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ReposList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ReposList/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/Select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/tests/Select.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ToggleOption/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/components/ToggleOption/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItemTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/List.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItem.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItemTitle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/AtPrefix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/CenteredSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Section.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/AtPrefix.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/CenteredSection.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Form.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Input.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Section.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/__snapshots__/saga.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/saga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/actions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/reducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/RepoLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/Wrapper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueIcon.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/RepoLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueIcon.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueLink.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/RepoLink.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/global-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/images/icon-512x512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/tests/i18n.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/tests/store.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/translations/de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/checkStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/injectReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/injectSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/reducerInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/sagaInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/checkStore.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/request.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/appveyor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/css/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/css/linting.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/css/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/css/sanitize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/forks/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/commands.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/debugging.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/deployment.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/editor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/faq.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/files.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/gotchas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/server-configs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/webstorm-debug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/webstorm-eslint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/general/workflow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/async-components.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/i18n.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/immutablejs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/redux-saga.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/redux.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/remove.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/reselect.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/js/routing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/maintenance/dependency.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/testing/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/testing/component-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/testing/remote-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/docs/testing/unit-testing.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/class.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/loadable.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/messages.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/stateless.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/actions.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/actions.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/class.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/constants.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/index.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/messages.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/reducer.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/reducer.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/saga.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/saga.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/selectors.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/selectors.test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/stateless.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/test.js.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/add-locale-data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/app-locale.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/format-translation-messages.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/intl-locale-data.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/polyfill-intl-locale.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/translation-messages.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/translations-json.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/generators/utils/componentExists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/mocks/cssModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/mocks/image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/analyze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/clean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/extract-intl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/generate-templates-for-linting.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/checkmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/progress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/xmark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/scripts/setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/configureStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/global-styles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/tests/i18n.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/tests/store.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/checkStore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/injectReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/injectSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/reducerInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/sagaInjectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/checkStore.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/testing/enzyme-setup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/testing/test-bundler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.base.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.dev.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.prod.babel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/argv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/middlewares/addDevMiddlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/middlewares/addProdMiddlewares.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/middlewares/frontendMiddleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/server/port.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PROJECT_NAME</find>
+      <find>fastcgi_pass</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>project_name</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/docker/db/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/db/.env" />
+        <option value="$PROJECT_DIR$/docker/nginx/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker/php/Dockerfile" />
+        <option value="$PROJECT_DIR$/back/public/index.php" />
+        <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
+        <option value="$PROJECT_DIR$/docker/node/Dockerfile" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3520" />
+    <option name="y" value="127" />
+    <option name="width" value="1600" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="nginx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker/nginx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ecb6c59-ae4f-4bbb-9b4a-430aeb9d8fca" name="Default Changelist" comment="" />
+      <created>1555581917789</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555581917789</updated>
+      <workItem from="1555581919054" duration="9307000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9307000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3520" y="127" width="1600" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3011583" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32977304" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/db/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf.bu">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" selection-start-line="2" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/node/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
