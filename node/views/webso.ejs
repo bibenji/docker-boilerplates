@@ -1,0 +1,49 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Webso</h1>
+        <h2>Test</h2>
+
+        <div id="messages"></div>
+        <hr/>
+        <input type="text" id="text" />
+        <input type="button" id="button" value="Envoyer au server" />
+
+        <script
+                src="https://code.jquery.com/jquery-3.2.1.min.js"
+                integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                crossorigin="anonymous"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+            var socket = io.connect('http://localhost:8888');
+
+            var pseudo = prompt('Quel est votre pseudo ?');
+            socket.emit('petit_nouveau', pseudo);
+
+            var messages = document.getElementById('messages');
+
+            socket.on('message', function(message) {
+                console.log('Le serveur a un message pour vous : ' + message);
+                var div = document.createElement('div');
+                div.innerText = message;
+                messages.appendChild(div);
+            })
+
+            var bouton = document.getElementById('button');
+            //            var input = document.getElementById('text');
+
+            bouton.addEventListener('click', function() {
+                var input = document.getElementById('text');
+                var content = input.value;
+
+                socket.emit('message', content);
+
+            });
+
+
+        </script>
+
+    </body>
+</html>

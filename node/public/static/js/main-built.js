@@ -1,0 +1,1 @@
+console.log("Coucou from main.js"),define("main",function(){});

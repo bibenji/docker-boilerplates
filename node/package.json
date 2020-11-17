@@ -1,0 +1,41 @@
+{
+  "name": "node-with-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "cookie-session": "^2.0.0-beta.3",
+    "file-system": "^2.2.2",
+    "formidable": "^1.1.1",
+    "fs": "0.0.1-security",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-tap": "^1.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gutil": "^1.6.4",
+    "http": "0.0.0",
+    "mongodb": "^3.0.1",
+    "path": "^0.12.7",
+    "querystring": "^0.2.0",
+    "ractive": "^0.9.11",
+    "sha1": "^1.1.1",
+    "socket.io": "^2.0.4",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.0.1"
+  }
+}

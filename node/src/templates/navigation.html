@@ -1,0 +1,15 @@
+<nav>
+    <ul>
+        <li><a on-click="goto" data-target="home">Home</a></li>
+        {{ #if !isLogged }}
+            <li><a on-click="goto" data-target="register">Register</a></li>
+            <li><a on-click="goto" data-target="login">Login</a></li>
+        {{ else }}
+            <li class="right"><a on-click="goto" data-target="logout">Logout</a></li>
+            <li class="right"><a on-click="goto" data-target="profile">Profile</a></li>
+            <li class="right"><a on-click="goto" data-target="find-friends">Find friends</a></li>
+            <li class="right"><a on-click="goto" data-target="pages">Pages</a></li>
+            <li class="right"><a on-click="goto" data-target="chat">Chat</a></li>
+        {{ /if }}
+    </ul>
+</nav>

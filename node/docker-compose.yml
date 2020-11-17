@@ -1,0 +1,45 @@
+version: '2'
+
+services:
+    nwd_database:
+        image: mongo
+        volumes:
+            - ./docker/db/data/:/data/
+            - ./:/opt/project/
+        ports:
+            - "27017:27017"
+        expose:
+            - "27017"
+        env_file: .env
+        labels:
+            - "traefik.enable=false"
+
+
+    nwd_server:
+#        image: node
+        build:
+            context: .
+            dockerfile: ./docker/app/Dockerfile
+        volumes:
+           - ./:/usr/src/app/
+        labels:
+#            - "traefik.enable=false"
+            - "traefik.backend=node-with-docker"
+            - "traefik.frontend.rule=Host:${APP_NAME}"
+            - "traefik.port=8888"
+            - "traefik.frontend.passHostHeader=true"
+#            - "traefik.backend.loadbalancer.method=drr"
+        env_file: .env
+#        ports:
+#            - "8888:8888"
+#        expose:
+#            - "8888"
+        depends_on:
+            - nwd_database
+        links:
+            - nwd_database
+
+networks:
+    default:
+        external:
+            name: devtools

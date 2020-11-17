@@ -1,0 +1,48 @@
+version: '3.5'
+
+services:
+  db:
+    container_name: 'db_${PROJECT_NAME}_${ENV}'
+    build:
+      context: ./docker/db/
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    networks:
+      - default
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=db.${PROJECT_NAME}"
+#      - "traefik.backend.loadbalancer.method=drr"
+      - "traefik.frontend.rule=Host:db.${PROJECT_NAME}.localhost"
+#      - "traefik.frontend.passHostHeader=true"
+#      - "traefik.port=1080"
+      - "traefik.docker.network=traefik"
+
+  node:
+    container_name: 'node_${PROJECT_NAME}_${ENV}'
+    build:
+      context: ./docker/node/
+      dockerfile: ./Dockerfile
+    env_file:
+      - .env
+    networks:
+      - default
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.backend=node.${PROJECT_NAME}"
+#      - "traefik.backend.loadbalancer.method=drr"
+      - "traefik.frontend.rule=Host:node.${PROJECT_NAME}.localhost"
+#      - "traefik.frontend.passHostHeader=true"
+      - "traefik.port=3000"
+      - "traefik.docker.network=traefik"
+    volumes:
+      - ./back/:/var/www/${PROJECT_NAME}/
+
+networks:
+  default:
+    name: network_${PROJECT_NAME}_${ENV}
+  traefik:
+    external: true

@@ -2,360 +2,498 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ecb6c59-ae4f-4bbb-9b4a-430aeb9d8fca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/lab.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/node/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/php/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/MAINTAINERS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/issue-close-app.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.github/lock.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.nvmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/Changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/.nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/A/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/A/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/A.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/StyledButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/buttonStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/A.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/StyledButton.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Button/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Footer/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H1/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H1/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H2/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H3/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/H3/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/A.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/HeaderLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/Img.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/NavBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/A.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/Img.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/A.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/Img.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Header/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Img/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Img/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/IssueIcon/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/IssueIcon/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/Ul.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/Ul.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/List/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/Item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/Item.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ListItem/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Circle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Circle.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/__snapshots__/index.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ReposList/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ReposList/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/Select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/tests/Select.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/Toggle/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ToggleOption/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/components/ToggleOption/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/actions.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/reducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/App/tests/selectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItemTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/Loadable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/List.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItem.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItemTitle.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/AtPrefix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/CenteredSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Loadable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/Section.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/AtPrefix.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/CenteredSection.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Form.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Input.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Section.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/__snapshots__/saga.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/actions.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/reducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/saga.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/HomePage/tests/selectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/actions.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/reducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/selectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/Loadable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/RepoLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/Wrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueIcon.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueLink.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/RepoLink.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/Wrapper.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueIcon.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueLink.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/RepoLink.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/global-styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/images/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/tests/i18n.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/tests/store.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/translations/de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/translations/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/checkStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/injectReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/injectSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/reducerInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/request.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/sagaInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/checkStore.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/injectReducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/injectSaga.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/reducerInjectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/request.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/app/utils/tests/sagaInjectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/appveyor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/css/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/css/linting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/css/remove.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/css/sanitize.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/forks/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/commands.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/components.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/debugging.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/deployment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/editor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/files.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/gotchas.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/remove.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/server-configs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/webstorm-debug.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/webstorm-eslint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/general/workflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/async-components.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/i18n.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/immutablejs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/redux-saga.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/redux.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/remove.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/reselect.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/js/routing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/maintenance/dependency.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/testing/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/testing/component-testing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/testing/remote-testing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/docs/testing/unit-testing.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/class.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/loadable.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/messages.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/stateless.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/component/test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/actions.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/actions.test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/class.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/constants.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/index.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/messages.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/reducer.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/reducer.test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/saga.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/saga.test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/selectors.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/selectors.test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/stateless.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/container/test.js.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/add-locale-data.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/app-locale.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/format-translation-messages.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/intl-locale-data.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/polyfill-intl-locale.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/translation-messages.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/language/translations-json.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/generators/utils/componentExists.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/mocks/cssModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/mocks/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/analyze.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/clean.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/extract-intl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/generate-templates-for-linting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/checkmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/progress.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/helpers/xmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/npmcheckversion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/scripts/setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/configureStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/selectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/Loadable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/Loadable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/messages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/global-styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/tests/i18n.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/tests/store.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/translations/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/checkStore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/injectReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/injectSaga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/reducerInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/sagaInjectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/checkStore.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectReducer.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectSaga.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/reducerInjectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/templates/utils/tests/sagaInjectors.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/testing/enzyme-setup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/testing/test-bundler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.base.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.dev.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/internals/webpack/webpack.prod.babel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/argv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/logger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/middlewares/addDevMiddlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/middlewares/addProdMiddlewares.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/middlewares/frontendMiddleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/server/port.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/api_platform.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/nelmio_cors.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/test/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/packages/vich_uploader.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/routes/api_platform.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/aria_log.00000001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/aria_log_control" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/tc.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/nginx/config/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/php/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/docker/php/ini/php.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/es6-promise/es6-promise.auto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/fetch/fetch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/graphiql-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/graphiql/graphiql.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/graphiql/graphiql.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/init-graphiql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/init-redoc-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/init-swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/logo-header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/react/react-dom.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/react/react.production.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/redoc/redoc.standalone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/swagger-ui/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/swagger-ui/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/swagger-ui/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/bundles/apiplatform/webby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/public/media/9a6604da22f57df64677eeac5a3b25da.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Controller/CreateMediaObjectAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Entity/MediaObject.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Entity/Offer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Entity/Product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apiplatform/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/symfony-react/back/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/bin/console" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/bundles.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/cache.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/dev/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/nelmio_cors.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/prod/doctrine.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/security.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/test/framework.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/test/routing.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/test/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/validator.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/packages/vich_uploader.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/routes.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/routes/annotations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/routes/api_platform.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/routes/dev/twig.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/config/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/aria_log.00000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/aria_log_control" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/ib_buffer_pool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/ib_logfile0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/ib_logfile1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/ibdata1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/multi-master.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/database/data/tc.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/nginx/config/default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/php/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/docker/php/ini/php.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/es6-promise/es6-promise.auto.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/fetch/fetch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/graphiql-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/graphiql/graphiql.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/graphiql/graphiql.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/init-graphiql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/init-redoc-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/init-swagger-ui.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/logo-header.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/react/react-dom.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/react/react.production.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/redoc/redoc.standalone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/swagger-ui/swagger-ui-bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/swagger-ui/swagger-ui-standalone-preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/swagger-ui/swagger-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/bundles/apiplatform/webby.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/public/media/9a6604da22f57df64677eeac5a3b25da.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Controller/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Controller/CreateMediaObjectAction.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Entity/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Entity/MediaObject.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Entity/Offer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Entity/Product.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Kernel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/src/Repository/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/symfony.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiplatform-boilerplate/templates/base.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.env" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/bin/console" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/config/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/cache.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/dev/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/config/packages/dev/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/config/packages/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/test/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/config/packages/test/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/packages/test/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/config/packages/test/routing.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/Controller/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/docker/database/data/multi-master.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/apiplatform/src/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/back/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker/db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker/nginx/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker/nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/node/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker/node/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/docker/php/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/MAINTAINERS.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/MAINTAINERS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/issue-close-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/issue-close-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.github/lock.yml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.github/lock.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.nvmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.prettierignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.stylelintrc" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.stylelintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/.nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/.nginx.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/A/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/A/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/A/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/A/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/A.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/A.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/StyledButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/StyledButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/buttonStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/buttonStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/tests/A.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/tests/A.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/tests/StyledButton.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/tests/StyledButton.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Button/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Button/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Footer/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Footer/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Footer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Footer/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Footer/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Footer/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Footer/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Footer/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Footer/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H1/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H1/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H1/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H2/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H2/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H2/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H3/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/H3/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/H3/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/A.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/A.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/HeaderLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/HeaderLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/Img.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/Img.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/tests/A.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/tests/A.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/tests/Img.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/tests/Img.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/A.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/tests/__snapshots__/A.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/tests/__snapshots__/Img.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/tests/__snapshots__/Img.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Header/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Header/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Img/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Img/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Img/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Img/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/IssueIcon/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/IssueIcon/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/IssueIcon/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/IssueIcon/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/Ul.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/Ul.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/tests/Ul.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/tests/Ul.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/List/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/List/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/Item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/tests/Item.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/tests/Item.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ListItem/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ListItem/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Circle.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/Circle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Circle.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/tests/Circle.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/__snapshots__/index.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/tests/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/LoadingIndicator/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/LoadingIndicator/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ReposList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ReposList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ReposList/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ReposList/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Toggle/Select.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Toggle/Select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Toggle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Toggle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Toggle/tests/Select.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Toggle/tests/Select.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/Toggle/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/Toggle/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ToggleOption/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ToggleOption/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/components/ToggleOption/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/components/ToggleOption/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/tests/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/tests/actions.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/tests/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/tests/reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/App/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/ListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/ListItemTitle.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/ListItemTitle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/Loadable.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/Loadable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/List.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/tests/List.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItem.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/tests/ListItem.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/ListItemTitle.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/tests/ListItemTitle.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/FeaturePage/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/FeaturePage/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/AtPrefix.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/AtPrefix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/CenteredSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/CenteredSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/Input.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/Input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/Loadable.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/Loadable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/Section.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/Section.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/AtPrefix.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/AtPrefix.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/CenteredSection.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/CenteredSection.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Form.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/Form.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/Input.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/Section.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/Section.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/__snapshots__/saga.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/__snapshots__/saga.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/actions.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/saga.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/saga.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/HomePage/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/HomePage/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/actions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/tests/actions.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/reducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/tests/reducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LanguageProvider/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LanguageProvider/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LocaleToggle/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LocaleToggle/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LocaleToggle/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LocaleToggle/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LocaleToggle/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LocaleToggle/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LocaleToggle/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/LocaleToggle/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/LocaleToggle/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/NotFoundPage/Loadable.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/NotFoundPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/NotFoundPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/NotFoundPage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/NotFoundPage/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/IssueIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/IssueLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/IssueLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/RepoLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/RepoLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/Wrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/Wrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueIcon.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/IssueIcon.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/IssueLink.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/IssueLink.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/RepoLink.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/RepoLink.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/Wrapper.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/Wrapper.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueIcon.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/__snapshots__/IssueIcon.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/IssueLink.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/__snapshots__/IssueLink.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/__snapshots__/RepoLink.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/__snapshots__/RepoLink.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/containers/RepoListItem/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/containers/RepoListItem/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/global-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/global-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/images/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/images/icon-512x512.png" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/images/icon-512x512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/tests/i18n.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/tests/i18n.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/tests/store.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/tests/store.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/translations/de.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/translations/de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/translations/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/checkStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/checkStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/injectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/injectReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/injectSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/injectSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/reducerInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/reducerInjectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/sagaInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/sagaInjectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/checkStore.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/checkStore.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/injectReducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/injectSaga.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/reducerInjectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/request.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/request.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app/utils/tests/sagaInjectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/app/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/appveyor.yml" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/appveyor.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/css/linting.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/css/linting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/css/remove.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/css/remove.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/css/sanitize.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/css/sanitize.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/forks/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/forks/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/commands.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/commands.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/components.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/components.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/debugging.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/debugging.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/deployment.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/editor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/files.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/files.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/gotchas.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/gotchas.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/introduction.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/remove.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/remove.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/server-configs.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/server-configs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/webstorm-debug.png" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/webstorm-debug.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/webstorm-eslint.png" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/webstorm-eslint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/general/workflow.png" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/general/workflow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/async-components.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/async-components.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/i18n.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/i18n.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/immutablejs.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/immutablejs.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/redux-saga.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/redux-saga.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/redux.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/remove.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/remove.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/reselect.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/reselect.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/js/routing.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/js/routing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/maintenance/dependency.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/maintenance/dependency.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/testing/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/testing/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/testing/component-testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/testing/component-testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/testing/remote-testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/testing/remote-testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/docs/testing/unit-testing.md" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/docs/testing/unit-testing.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/class.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/class.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/loadable.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/loadable.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/messages.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/messages.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/stateless.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/stateless.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/component/test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/component/test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/actions.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/actions.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/actions.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/actions.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/class.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/class.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/constants.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/constants.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/index.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/index.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/messages.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/messages.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/reducer.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/reducer.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/reducer.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/reducer.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/saga.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/saga.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/saga.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/saga.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/selectors.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/selectors.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/selectors.test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/selectors.test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/stateless.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/stateless.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/container/test.js.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/container/test.js.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/add-locale-data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/add-locale-data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/app-locale.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/app-locale.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/format-translation-messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/format-translation-messages.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/intl-locale-data.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/intl-locale-data.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/polyfill-intl-locale.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/polyfill-intl-locale.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/translation-messages.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/translation-messages.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/language/translations-json.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/language/translations-json.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/generators/utils/componentExists.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/generators/utils/componentExists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/mocks/cssModule.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/mocks/cssModule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/mocks/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/mocks/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/analyze.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/analyze.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/extract-intl.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/extract-intl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/generate-templates-for-linting.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/generate-templates-for-linting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/helpers/checkmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/helpers/checkmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/helpers/progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/helpers/progress.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/helpers/xmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/helpers/xmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/npmcheckversion.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/npmcheckversion.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/scripts/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/scripts/setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/configureStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/configureStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/App/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/App/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/App/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/App/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/App/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/App/tests/selectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/App/tests/selectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/Loadable.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/HomePage/Loadable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/HomePage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/HomePage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/HomePage/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/HomePage/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/LanguageProvider/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/LanguageProvider/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/LanguageProvider/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/LanguageProvider/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/LanguageProvider/selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/LanguageProvider/selectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/Loadable.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/NotFoundPage/Loadable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/NotFoundPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/messages.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/NotFoundPage/messages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/containers/NotFoundPage/tests/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/containers/NotFoundPage/tests/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/global-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/global-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/i18n.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/reducers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/tests/i18n.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/tests/i18n.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/tests/store.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/tests/store.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/translations/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/translations/en.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/checkStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/checkStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/injectReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/injectReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/injectSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/injectSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/reducerInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/reducerInjectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/sagaInjectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/sagaInjectors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/tests/checkStore.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/tests/checkStore.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectReducer.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/tests/injectReducer.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/tests/injectSaga.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/tests/injectSaga.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/tests/reducerInjectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/tests/reducerInjectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/templates/utils/tests/sagaInjectors.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/templates/utils/tests/sagaInjectors.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/testing/enzyme-setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/testing/enzyme-setup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/testing/test-bundler.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/testing/test-bundler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/webpack/webpack.base.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/webpack/webpack.base.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/webpack/webpack.dev.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/webpack/webpack.dev.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/internals/webpack/webpack.prod.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/internals/webpack/webpack.prod.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/argv.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/argv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/middlewares/addDevMiddlewares.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/middlewares/addDevMiddlewares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/middlewares/addProdMiddlewares.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/middlewares/addProdMiddlewares.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/middlewares/frontendMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/middlewares/frontendMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/server/port.js" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/server/port.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony-react/front/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -363,15 +501,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/back/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/symfony-react/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="120">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apiplatform/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apiplatform/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -386,7 +540,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../apiplatform-boilerplate" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -399,14 +553,15 @@
         <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
         <option value="$PROJECT_DIR$/docker/node/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/symfony-react/docker-compose.yml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3520" />
-    <option name="y" value="127" />
-    <option name="width" value="1600" />
-    <option name="height" value="873" />
+    <option name="x" value="829" />
+    <option name="y" value="262" />
+    <option name="width" value="1440" />
+    <option name="height" value="791" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -414,53 +569,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="nginx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="docker" type="462c0819:PsiDirectoryNode" />
-              <item name="node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-boilerplates" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docker-boilerplates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../symfony-with-dd" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/symfony" />
+      <recent name="$PROJECT_DIR$/node" />
+      <recent name="$PROJECT_DIR$/apiplatform" />
+      <recent name="$PROJECT_DIR$/symfony-react" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docker/nginx" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -486,24 +625,20 @@
       <option name="presentableId" value="Default" />
       <updated>1555581917789</updated>
       <workItem from="1555581919054" duration="9307000" />
+      <workItem from="1605625854565" duration="606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9307000" />
+    <option name="totallyTimeSpent" value="9913000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3520" y="127" width="1600" height="873" extended-state="6" />
+    <frame x="-3" y="-1" width="1926" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3011583" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30469584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32977304" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -511,78 +646,83 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33010754" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docker/nginx/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker/nginx/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/db/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker/db/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back/public/index.php">
+    <entry file="file://$PROJECT_DIR$/symfony-react/back/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf.bu">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf.bu" />
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker/php/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="33" selection-start-line="2" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/symfony-react/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/node/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker/node/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/symfony-react/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="120">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiplatform/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apiplatform/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

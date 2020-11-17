@@ -1,0 +1,1 @@
+module.exports = {"v":4,"t":[{"t":7,"e":"div","m":[{"n":"id","f":"output","t":13}],"f":[{"t":7,"e":"p","f":[{"t":2,"r":"greeting"}," ",{"t":2,"r":"name"},"!"]}]}]}
