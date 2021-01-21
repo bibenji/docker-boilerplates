@@ -10,7 +10,7 @@
     "express": "^4.16.4",
     "graphql": "^14.2.1",
     "graphql-tools": "^4.0.4",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
